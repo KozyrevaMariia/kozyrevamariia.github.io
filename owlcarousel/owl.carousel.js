@@ -555,14 +555,14 @@
 	 * @returns {jQuery|HTMLElement} - The item container.
 	 */
 	Owl.prototype.prepare = function(item) {
-		var event = this.trigger('prepare', { content: item });
+		var event = this.trigger('prepare', { content:  item });
 
 		if (!event.data) {
 			event.data = $('<' + this.settings.itemElement + '/>')
 				.addClass(this.options.itemClass).append(item)
 		}
 
-		this.trigger('prepared', { content: event.data });
+		this.trigger('prepared', { content:  event.data });
 
 		return event.data;
 	};
