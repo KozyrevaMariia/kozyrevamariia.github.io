@@ -1,13 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
 #cssmenu {
+  font-family: 'Noto Sans', sans-serif;
   background: #fff;
   margin: 0;
-  width: auto;
+  width: 100%;
   padding: 0;
   line-height: 1;
   display: block;
-  position: relative;
-  z-index: 9999;
+  position: fixed;
+  z-index: 1000;
 }
 #cssmenu:before{
 	position: absolute;
@@ -117,7 +117,7 @@
 #cssmenu ul li ul li:hover > a,
 #cssmenu ul li ul li.active > a {
   color: #111;
-  background: #ed6427;
+  background: #4682B4;
 }
 #cssmenu ul li ul li:hover:after,
 #cssmenu ul li ul li.active:after {
@@ -147,6 +147,7 @@
 #cssmenu.align-right > ul {
   float: right;
 }
+
 #cssmenu.align-right > ul > li:hover > ul {
   left: auto;
   right: 0;
@@ -166,7 +167,7 @@
   height: 0;
   top: 0;
   z-index: 0;
-  background: #ed6427;
+  background: #4682B4;
   -webkit-transition: height .2s;
   -moz-transition: height .2s;
   -ms-transition: height .2s;
@@ -249,7 +250,7 @@
   width: 170px;
   display: block;
 }
-@media all and (max-width: 800px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+@media all {
   #cssmenu > ul {
     max-height: 0;
     overflow: hidden;

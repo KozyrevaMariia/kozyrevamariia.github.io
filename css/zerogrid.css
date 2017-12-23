@@ -12,6 +12,7 @@ Author URI: http://www.zerotheme.com/
 
 .zerogrid.full{width: 100%;}
 
+
 @media (min-width: 768px) {
   .zerogrid {width: 750px;}
 }
