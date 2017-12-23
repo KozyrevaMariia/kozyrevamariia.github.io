@@ -181,39 +181,40 @@ header #logo{}
 .content-box.box-2 .wrap-box{padding: 0 10px 100px;}
 .content-box.box-6
   body {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 25px;
-    color: #666;
-  }
-  form {
-    width: 500px;
-    background: white;
-    padding: 20px 25px;
-    margin: auto;
-    margin-top: 30px;
-  }
-  form input,
-  form textarea {
-    font: inherit;
-    padding: 5px 5px;
-    width: 100%;
-    margin-top: 3px;
-    margin-bottom: 15px;
-    box-sizing: border-box;
-  }
-  form button {
-    border: 2px solid rgba(0,0,0,0.2);
-    padding: 15px 79px;
-    font-size: 18px;
-    background: #8ec1cd;
-    color: white;
-  }
-  form label {
-    color: #8ec1cd;
-  font-size: 20px;
-  margin-bottom: 10px;
-  display: block;
-  }
+  font-family: arial;
+  font-size: 12px;
+  color: #666;
+}
+form {
+  width: 500px;
+  background: white;
+  padding: 20px 25px;
+  margin: auto;
+  margin-top: 30px;
+}
+form input,
+form textarea {
+  font: inherit;
+  padding: 5px 5px;
+  width: 100%;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+form button {
+  border: 2px solid rgba(0,0,0,0.2);
+  padding: 15px 79px;
+  font-size: 18px;
+  background: #8ec1cd;
+  color: white;
+}
+form label {
+  color: #8ec1cd;
+font-size: 20px;
+margin-bottom: 10px;
+display: block;
+}
+
 
 
 
