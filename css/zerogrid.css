@@ -12,7 +12,7 @@ Author URI: http://www.zerotheme.com/
 
 .zerogrid.full{width: 100%;}
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .zerogrid {width: 750px;}
 }
 @media (min-width: 992px) {
@@ -71,7 +71,7 @@ Author URI: http://www.zerotheme.com/
 .offset-xs-4-6{margin-left: 66.66%;}
 .offset-xs-5-6{margin-left: 83.33%;}
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
 
     .sm-1-2{width:50%;}
 	.offset-sm-1-2{margin-left: 50%;}
