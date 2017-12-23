@@ -27,7 +27,6 @@ input, textarea, select {margin:0; padding:0px;}
 }
 
 ::-moz-selection{background: #4682B4 none repeat scroll 0 0;color: #fff;text-shadow:none}
-::selection{background: #4682B4 none repeat scroll 0 0;color: #fff;text-shadow:none}
 
 /* ---------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------- */
