@@ -163,7 +163,29 @@
 							<h2>Обратная связь</h2>
 							<p class="intro"><a name="Fid">Для заказа оставьте свои контактные данные в этой форме,<br> наш менеджер с Вами свяжется! </a> </p>
 						</div>
-						<script async src="//jsfiddle.net/dq89gxwq/embed/result/"></script>
+						<form id="myform" method="post">
+<label>Ваше имя</label>
+<input type="text" name="reply_to" />
+<label>Ваш телефон/почта</label>
+<input type="text" name="from_name" />
+<label>Детали заказа</label>
+<input type="text" name="to_name" />
+<label>Дополнительные комментарии</label>
+<input type="text" name="message_html" />
+<br><br>
+<button>
+Отправить
+</button>
+</form>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_KntxH3BnkiHgGfTKmnJNr");
+   })();
+</script>
 					</div>
 				</div>
 			</div>
