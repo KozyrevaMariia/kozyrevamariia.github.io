@@ -27,12 +27,14 @@ input, textarea, select {margin:0; padding:0px;}
 }
 
 ::-moz-selection{background: #4682B4 none repeat scroll 0 0;color: #fff;text-shadow:none}
+::selection{background: #4682B4 none repeat scroll 0 0;color: #fff;text-shadow:none}
 
 /* ---------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------- */
 
-html
+html { -webkit-text-size-adjust: none;}
+.video embed,.video object,.video iframe { width: 100%;  height: auto;}
 img{max-width:100%;	height: auto;width: auto\9; /* ie8 */}
 
 a{color: #4682B4;text-decoration: none;-moz-transition: 0.3s;
@@ -119,7 +121,6 @@ header#header{text-align: center;width: 100%;z-index: 2;position: relative;overf
 header#header .main-header{background: url(../images/hero.jpg);background-size: cover;overflow: hidden;padding: 120px 0;position: relative}
 header .main-header:before{position: absolute;content: ""; height: 100%; width: 100%;background: rgba(0, 0, 0, .55);top: 0;left: 0;right: 0;bottom: 0;}
 
-
 header .heading-text h2{font-family: 'Roboto Slab', serif;
   font-size:65px;
   font-weight: normal;
@@ -174,6 +175,8 @@ header #logo{}
 
 .content-box.box-1 .heading-text {text-align: center; font-family: 'Noto Sans', sans-serif;font-size: 25px;}
 .content-box.box-1 .wrap-box{padding: 80px 0;}
+.content-box.box-1 .owl-carousel .item{box-shadow: 0 20px 40px 0 #aaa;margin: 0 12px;}
+.content-box.box-1 .owl-carousel .item p{margin: 0; }
 
 .content-box.box-2 .wrap-box{padding: 0 10px 100px;}
 .content-box.box-6
@@ -293,3 +296,24 @@ textarea {display:block;width:100%;height:200px;color:#111;border:1px solid #999
 .button-skin:hover{background: transparent;color: #333;border:2px solid #333;}
 .button-subcribe{background-color: #4682B4;color: #fff;font-weight: bold;}
 .button-subcribe:hover{background-color: #333;}
+
+/* ---------------------------------------------------------------------------- */
+/* -----------------------------------Carousel--------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.owl-carousel .owl-stage-outer{padding-bottom: 50px;}
+.owl-dots {margin: 0 auto;text-align: center;}
+.owl-dot {width: 8px;height: 8px;border-radius: 50%;background: #ccc;margin-right: 10px;display: inline-block;}
+.owl-dot.active {width: 15px;height: 8px;border-radius: 10px;background: #4682B4;}
+
+.owl-carousel .item{position: relative;}
+.carousel-caption {position: absolute;top: 50%;transform: translateY(-50%);bottom: auto;padding: 0;text-align: center;width: 100%;left: auto;right: auto;text-shadow: none;}
+.carousel-caption a:hover {color: #4682B4;}
+.carousel-caption-title {margin: 0;padding: 0;}
+.carousel-caption-title a {font-size: 18px;font-size: 1.125em;font-family: 'Cabin', Helvetica, sans-serif;text-transform: uppercase;letter-spacing: 2px;color: #373735;}
+.carousel-caption-title {white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.carousel-caption-category {margin: 0;padding: 0;}
+.carousel-caption-category a {color: #aaaaaa;font-size: 14px;font-size: 0.875em;letter-spacing: .5px;text-transform: lowercase;}
+.carousel-caption-inner {background: #fff;padding: 30px 40px;max-width: 80%;margin: 0 auto;display: inline-block;}
+
+/* ---------------------------------------------------------------------------- */
+/* -------
