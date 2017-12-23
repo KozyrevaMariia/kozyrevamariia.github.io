@@ -70,10 +70,10 @@ input:not([type]), input[type="color"], input[type="email"], input[type="number"
 .f-left{float: left;}
 
 .post{}
-.post:after, .post:before, article:after, article:before, section:after, section:before{clear: both; content:  '\0020'; display: block; visibility: hidden; width: 0; height: 0;}
+.post:after, .post:before, article:after, article:before, section:after, section:before{clear: both; content: '\0020'; display: block; visibility: hidden; width: 0; height: 0;}
 
-.clear{content:  "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
-.clearfix:after, .clearfix:before{clear: both; content:  '\0020'; display: block; visibility: hidden; width: 0; height: 0;}
+.clear{content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix:after, .clearfix:before{clear: both; content: '\0020'; display: block; visibility: hidden; width: 0; height: 0;}
 
 .list-inline li{display: inline-block;}
 
@@ -86,7 +86,7 @@ hr{ margin: 20px auto 0; padding: 0; max-width: 210px;border: 0; border-top: dou
 
 hr.line01:after,
 hr.line02:after,
-hr.line03:after{content:  url(../images/rose.png);display: inline-block;position: relative;top: -12px;padding: 0 10px;}
+hr.line03:after{content: url(../images/rose.png);display: inline-block;position: relative;top: -12px;padding: 0 10px;}
 
 hr.line01 {border-color: #111;}
 hr.line01:after {color: #111;background-color: #F7F7F7;}
@@ -117,7 +117,7 @@ body .wrap-body{position: relative;}
 header#header{text-align: center;width: 100%;z-index: 2;position: relative;overflow: hidden;backface-visibility: hidden;display: block;}
 
 header#header .main-header{background: url(../images/hero.jpg);background-size: cover;overflow: hidden;padding: 120px 0;position: relative}
-header .main-header:before{position: absolute;content:  ""; height: 100%; width: 100%;background: rgba(0, 0, 0, .55);top: 0;left: 0;right: 0;bottom: 0;}
+header .main-header:before{position: absolute;content: ""; height: 100%; width: 100%;background: rgba(0, 0, 0, .55);top: 0;left: 0;right: 0;bottom: 0;}
 
 header .heading-text h2{font-family: 'Roboto Slab', serif;
   font-size:65px;
@@ -144,8 +144,8 @@ header #logo{}
 /* -------------------------------------Container------------------------------ */
 /* ---------------------------------------------------------------------------- */
 #container {position: relative;overflow: visible;z-index: 2;}
-#container:before{content:  '';z-index: 3;background: url(../images/sketch.png) repeat center bottom; background-size: auto 100%;position: absolute;top: 0;left: 0;width: 100%;height: 40px;margin-top: -40px;visibility: visible;}
-#container:after{content:  '';position: absolute; bottom: 0; left: 0; width: 100%; z-index: 3; background: url(../images/sketch-header.png) repeat center bottom; background-size: 100%; height: 90px; margin-bottom: -10px;visibility: visible;}
+#container:before{content: '';z-index: 3;background: url(../images/sketch.png) repeat center bottom; background-size: auto 100%;position: absolute;top: 0;left: 0;width: 100%;height: 40px;margin-top: -40px;visibility: visible;}
+#container:after{content: '';position: absolute; bottom: 0; left: 0; width: 100%; z-index: 3; background: url(../images/sketch-header.png) repeat center bottom; background-size: 100%; height: 90px; margin-bottom: -10px;visibility: visible;}
 #container .wrap-container{background: #ffffff; height: 90px;}
 
 /* ---content-box--- */
@@ -161,7 +161,7 @@ header #logo{}
 .content-box .content{margin: 50px auto 20px;}
 
 .content-box.boxstyle-1{background: url(../images/bg-3.jpg);position: relative;}
-.content-box.boxstyle-1:before{position: absolute;content:  ""; height: 100%; width: 100%;background: rgba(45, 50, 56,0.55);top: 0;left: 0;right: 0;bottom: 0;visibility: initial;}
+.content-box.boxstyle-1:before{position: absolute;content: ""; height: 100%; width: 100%;background: rgba(45, 50, 56,0.55);top: 0;left: 0;right: 0;bottom: 0;visibility: initial;}
 
 .content-box.boxstyle-2{ font-family: 'Noto Sans', sans-serif;
   font-size:25px;
@@ -169,7 +169,7 @@ header #logo{}
 .content-box.boxstyle-2{font-family: 'Noto Sans', sans-serif;
   font-size:25px; background: url(../images/bg-2.jpg);background-size:cover;}
 .content-box.box-style-3{background: url(../images/world-map.png) center center no-repeat;background-size: cover;position: relative;}
-.content-box.box-style-3:before {content: "";display: block;height: 100%;position: absolute;top: 0;left: 0;width: 100%;visibility: visible;background-color: rgba(255, 255, 255, .7);}
+.content-box.box-style-3:before {content:"";display: block;height: 100%;position: absolute;top: 0;left: 0;width: 100%;visibility: visible;background-color: rgba(255, 255, 255, .7);}
 
 .content-box.box-1 .heading-text {text-align: center; font-family: 'Noto Sans', sans-serif;font-size: 25px;}
 .content-box.box-1 .wrap-box{padding: 80px 0;}
@@ -221,7 +221,7 @@ display: block;
 
 article{padding-bottom: 30px;margin-bottom: 30px;}
 article:last-child{border-bottom: none;padding-bottom: 0;}
-article:after, article:before{clear: both; content:  '\0020'; display: block; visibility: hidden; width: 0; height: 0;}
+article:after, article:before{clear: both; content: '\0020'; display: block; visibility: hidden; width: 0; height: 0;}
 
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Footer--------------------------------- */
@@ -234,7 +234,7 @@ footer .wrap-footer{padding: 70px 60px 0;}
 footer .brand-footer{font-size: 57px;text-transform: uppercase;letter-spacing: 5px;color: #777;}
 footer ul li{margin-bottom: 5px;padding: 10px 0 15px;display: inline-block;}
 footer ul.quicklinks li{position:relative;padding: 0 10px;}
-footer ul.quicklinks li:after{position: absolute;content:  "";border-right: 1px solid #777;height: 16px;top: 5px;padding-left: 10px;}
+footer ul.quicklinks li:after{position: absolute;content: "";border-right: 1px solid #777;height: 16px;top: 5px;padding-left: 10px;}
 footer ul.quicklinks li:last-child:after{display: none;}
 footer ul.quicklinks li:first-child{padding-left: 0;}
 footer .col-footer-1 {}

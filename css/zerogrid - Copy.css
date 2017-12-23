@@ -10,7 +10,7 @@ Author URI: http://www.zerotheme.com/
 .zerogrid,
 .zerogrid-full{position: relative; margin: 0 auto; padding: 0px;}
 .zerogrid:after,
-.zerogrid-full:after { content:  "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+.zerogrid-full:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 
 .zerogrid-full{width: 100%;}
 
@@ -29,7 +29,7 @@ Author URI: http://www.zerotheme.com/
 .zerogrid .row:before,
 .zerogrid .row:after,
 .zerogrid-full .row:before,
-.zerogrid-full .row:after{ content:  '\0020';display: block;overflow: hidden;visibility: hidden;width: 0;height: 0;}
+.zerogrid-full .row:after{ content: '\0020';display: block;overflow: hidden;visibility: hidden;width: 0;height: 0;}
 .zerogrid .row:after,
 .zerogrid-full .row:after{clear: both;}
 
