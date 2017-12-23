@@ -34,7 +34,7 @@ input, textarea, select {margin:0; padding:0px;}
 /* ---------------------------------------------------------------------------- */
 
 html { -webkit-text-size-adjust: none;}
-.video embed,.video object,.video iframe { width: 100%;  height: auto;}
+.video embed,.video object,.video iframe { width: auto 100%;  height: auto;}
 img{max-width:100%;	height: auto;width: auto\9; /* ie8 */}
 
 a{color: #4682B4;text-decoration: none;-moz-transition: 0.3s;
@@ -119,7 +119,7 @@ body .wrap-body{position: relative;}
 header#header{text-align: center;width: 100%;z-index: 2;position: relative;overflow: hidden;backface-visibility: hidden;display: block;}
 
 header#header .main-header{background: url(../images/hero.jpg);background-size: cover;overflow: hidden;padding: 120px 0;position: relative}
-header .main-header:before{position: absolute;content: ""; height: 100%; width: 100%;background: rgba(0, 0, 0, .55);top: 0;left: 0;right: 0;bottom: 0;}
+header .main-header:before{position: absolute;content:""; height: 100%; width: 100%;background: rgba(0, 0, 0, .55);top: 0;left: 0;right: 0;bottom: 0;}
 
 header .heading-text h2{font-family: 'Roboto Slab', serif;
   font-size:65px;
